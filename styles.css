@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(PACHANGA-PRO-WEB.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Opacidad negra en el fondo */
+}
+
+#marcador {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%; /* Ajusta el ancho según tu diseño */
+  max-width: 1200px; /* Ajusta el ancho máximo según tu diseño */
+}
+
+.carta {
+  background-color: rgba(255, 255, 255, 0.8); /* Ajusta el último valor según tu preferencia de opacidad */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  width: 45%; /* Ajusta el ancho de las cartas según tu diseño */
+  box-sizing: border-box;
+}
+
+.carta:hover {
+  transform: scale(1.05);
+}
+
+.equipo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.logo-equipo {
+  width: 100px; /* Ajusta el tamaño del logo según tu diseño */
+  margin-top: 10px;
+}
+
+.puntuacion {
+  display: flex;
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.botones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.botones img {
+  width: 50px;
+}
+
+button {
+  margin: 0 10px;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button-container button {
+  cursor: pointer;
+  padding: 10px;
+  width: 70px;
+  height: 70px;
+  font-size: 40px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Estilos adicionales para tabletas */
+@media (max-width: 768px) {
+  #marcador {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carta {
+    width: 100%; /* Ocupa todo el ancho en tabletas */
+    margin-bottom: 20px;
+  }
+}
+
