@@ -22,7 +22,7 @@ body {
 .carta {
   background-color: rgba(255, 255, 255, 0.8); /* Ajusta el último valor según tu preferencia de opacidad */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
   width: 45%; /* Ajusta el ancho de las cartas según tu diseño */
@@ -44,7 +44,7 @@ body {
 }
 
 .logo-equipo {
-  width: 100px; /* Ajusta el tamaño del logo según tu diseño */
+  width: 80px; /* Ajusta el tamaño del logo según tu diseño */
   margin-top: 10px;
 }
 
